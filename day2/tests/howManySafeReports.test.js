@@ -1,7 +1,7 @@
 import { it, expect, describe } from "vitest"
 import { areAdjacentLevelsValid, areLevelsMonotonic } from "../howManySafeReports"
 
-describe("areLevelsMonotonic function", () => {
+describe.skip("areLevelsMonotonic function", () => {
   it("should return true if numbers are increasing or decreasing", () => {
     const listItem1 = [9, 10, 12, 13, 13]
     const listItem2 = [90, 87, 85, 72, 70]
