@@ -5,6 +5,7 @@ import { dirname, resolve } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+
 const input = readFileSync(resolve(__dirname, 'input.txt'), 'utf-8');
 
 export const findMatches = (input) => {
